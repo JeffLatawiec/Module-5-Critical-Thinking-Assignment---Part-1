@@ -1,0 +1,29 @@
+
+#Create a variable for year one
+year_one = [
+    5,  # Inches of rain in January
+    5,  # Inches of rain in February
+    8,  # Inches of rain in March
+    20,  # Inches of rain in April
+    21,  # Inches of rain in May
+    6,  # Inches of rain in June
+    2,   # Inches of rain in July
+    1,  # Inches of rain in August
+    8,  # Inches of rain in September
+    9,  # Inches of rain in October
+    1,  # Inches of rain in November
+    1,   # Inches of rain in December
+]
+
+
+num_years_one = int(input('Enter year number: ')) #Create a variable to have user input the number year they want to see data for
+average_year_one = sum(year_one)/12 #Create a variable to calcuate average rainfall for year one
+
+
+
+if num_years_one == 1: #Create an if statement to check year entered
+    print('The number of months are:', '12') #print if true
+    print('Total inches of rainfall is:', sum(year_one)) #print if true
+    print('Monthly average rainfall is:', average_year_one) #print if true
+else: #Create an else clause
+    print("No data for year") #print if false
