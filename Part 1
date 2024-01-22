@@ -17,7 +17,7 @@ year_one = [
 
 
 num_years_one = int(input('Enter year number: ')) #Create a variable to have user input the number year they want to see data for
-average_year_one = sum(year_one)/12 #Create a variable to calcuate average rainfall for year one
+average_year_one = sum(year_one)/12 #Create a variable to calculate average rainfall for year one
 
 
 
